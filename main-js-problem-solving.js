@@ -6,7 +6,6 @@ function reverseString(str) {
 }
 
 // Problem 2: Count Vowels in a String
-
 function countVowels(str) {
     let count = 0;
     const vowels = "aeiouAEIOU"; 
@@ -18,3 +17,5 @@ function countVowels(str) {
     }
     return count;
 }
+
+
