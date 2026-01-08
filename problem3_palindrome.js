@@ -6,5 +6,3 @@ function isPalindrome(str) {
     return originalStr === reversedStr;
 }
 
-console.log(isPalindrome("madam")); 
-console.log(isPalindrome("hello")); 
