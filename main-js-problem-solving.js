@@ -52,3 +52,15 @@ function removeDuplicates(arr) {
     }
     return uniqueArray;
 }
+
+// Problem 6: Sum of All Numbers in an Array
+
+function sumArray(numbers) {
+    let sum = 0;
+
+    for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i]; 
+    }
+
+    return sum;
+}
